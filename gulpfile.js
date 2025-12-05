@@ -9,6 +9,10 @@ gulp.task('scripts', function(done){
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('assets/js'));
+    gulp.src('dev/js/search.js')
+        .pipe(uglify())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('assets/js'));
     done();
 });
 

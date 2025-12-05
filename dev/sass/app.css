@@ -1106,21 +1106,18 @@ a {
 }
 
 .alert-danger {
-  background-color: red;
+  background-color: #b52a1d;
   color: white;
   padding: 5px;
   z-index: 100000;
   position: fixed;
   width: 100%;
   text-align: center;
+  height: 28px;
 }
 
 .alert-danger + * {
-  margin-top: 40px;
-}
-
-.alert-link {
-  color: blue;
+  margin-top: 28px;
 }
 
 iframe {

@@ -1,3 +1,15 @@
-<!--[if lt IE 10]>
-<div class="alert-danger" role="alert">您使用的浏览器已不受支持，请更换您的浏览器。运行 Windows 10/11 的电脑请下载<a target="_blank" class="alert-link" href="https://microsoft.com/edge/">Microsoft Edge</a>，其它电脑请下载<a target="_blank" class="alert-link" href="https://www.centbrowser.cn/">百分浏览器</a>。</div>
+<!--[if !IE]>-->
+<script> 
+var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,unsupported:true,api:2025.12,url:"/browser.html",newwindow:false};
+function $buo_f(){ 
+ var e = document.createElement("script"); 
+ e.src = "https://browser-update.org/update.min.js"; 
+ document.body.appendChild(e);
+};
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+catch(e){window.attachEvent("onload", $buo_f)}
+</script>
+<!--<![endif]-->
+<!--[if IE]>
+<a href="/browser.html" class="alert-danger" role="alert">Internet Explorer 已不受支持！请点击此警告查看解决方案。</a>
 <![endif]-->
